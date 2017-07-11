@@ -7,6 +7,12 @@ Simple bash scripts to download files from folder (torrent and http support by f
 
 See [requirements](#requirements) first and make sure that you have everything. Modify variables in `downloader.sh`. Place all your torrents and links in files with .url extension in `waiting` folder. Run script. If everything goes good after some time you will see results.
 
+## Requirements
+
+* [Bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell))
+* [enhanced-ctorrent](http://www.rahul.net/dholmes/ctorrent/)
+* [wget](https://www.gnu.org/software/wget/)
+
 ## Folder structure
 
 <dl>
@@ -19,12 +25,6 @@ See [requirements](#requirements) first and make sure that you have everything. 
    <dt>&#128194; &nbsp; waiting</dt>
   <dd>Here is a list with waiting transfers (PLACE YOUR FILES HERE!)</dd>
 </dl>
-
-## Requirements
-
-* [Bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell))
-* [enhanced-ctorrent](http://www.rahul.net/dholmes/ctorrent/)
-* [wget](https://www.gnu.org/software/wget/)
 
 ## Variables in `downloader.sh`
 
