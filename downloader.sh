@@ -37,7 +37,7 @@ pcount=3
 ################ DONT CHANGE THIS IF YOU NOT SURE ######################################
 
 cpath="`pwd`"
-appname="CustomDownloader0.00.02"
+appname="CustomDownloader0.01.02"
 cwp="$cpath/waiting"
 ckp="$cpath/processing"
 
