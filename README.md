@@ -26,7 +26,7 @@ See [requirements](#requirements) first and make sure that you have everything. 
 * [enhanced-ctorrent](http://www.rahul.net/dholmes/ctorrent/)
 * [wget](https://www.gnu.org/software/wget/)
 
-## What variables in `downloader.sh` means?
+## Variables in `downloader.sh`
 
 <dl>
   <dt>apppath</dt>
