@@ -5,7 +5,7 @@ Simple bash scripts to download files from folder (torrent and http support by f
 
 ## How to use it?
 
-See [requirements](#requirements) first and make sure that you have everything. Modify variables in `downloader.sh`. Place all your torrents and links in files with .url extension in `waiting` folder. Run script. If everything goes good after some time you will see results.
+See [requirements](#requirements) first and make sure that you have everything. Modify [variables](#variables-in-downloadersh) in `downloader.sh`. Place all your torrents and links in files with .url extension in `waiting` folder. Run script. If everything goes good after some time you will see results.
 
 ## Requirements
 
