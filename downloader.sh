@@ -28,17 +28,18 @@
 
 apppath="/opt/bin"
 ports="6810-6819"
-appname="CustomDownloader0.00.01"
-dpath="/tmp/harddisk/downloads/"
+dpath="~/downloads/"
 mailto="your@email.com"
-cpath="`pwd`"
-cwp="$cpath/waiting"
-ckp="$cpath/processing"
-tmp="/tmp/harddisk/tmp"
-log="/tmp/harddisk/log/downloader"
+tmp="/tmp/downloads/"
+log="/tmp/log/"
 pcount=3
 
 ################ DONT CHANGE THIS IF YOU NOT SURE ######################################
+
+cpath="`pwd`"
+appname="CustomDownloader0.00.02"
+cwp="$cpath/waiting"
+ckp="$cpath/processing"
 
 function ifNotExistsCreateDir() {
     if [ ! -d "$1" ]; then
